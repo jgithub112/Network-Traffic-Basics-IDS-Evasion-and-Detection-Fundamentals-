@@ -1,0 +1,25 @@
+Scenario
+
+Attackers often attempt to bypass Intrusion Detection Systems (IDS) to avoid detection during reconnaissance or exploitation. 
+This challenge focuses on identifying common IDS evasion techniques and understanding network-level indicators 
+used to detect advanced attacks such as session hijacking.
+
+Tools Used
+
+•	TryHackMe learning platform
+•	IDS concepts (Snort / Suricata)
+•	TCP/IP protocol analysis
+•	Network security fundamentals
+
+Process
+
+1.	Studied common techniques attackers use to evade IDS detection.
+2.	Analyzed how packet manipulation affects signature-based detection.
+3.	Reviewed TCP header fields relevant to session management and security.
+4.	Identified indicators that can be monitored to detect hijacking attempts.
+
+Findings
+
+•	Packet fragmentation is a common evasion technique used by attackers to bypass IDS signature matching by splitting malicious payloads across multiple packets.
+•	An abnormal or unexpected jump in the TCP sequence number is a key indicator of session hijacking, as it suggests unauthorized manipulation or takeover of an established TCP session.
+•	The network traffic demonstrates a successful ARP spoofing attack, enabling man-in-the-middle interception.
