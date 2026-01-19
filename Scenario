@@ -21,5 +21,6 @@ Process
 Findings
 
 •	Packet fragmentation is a common evasion technique used by attackers to bypass IDS signature matching by splitting malicious payloads across multiple packets.
-•	An abnormal or unexpected jump in the TCP sequence number is a key indicator of session hijacking, as it suggests unauthorized manipulation or takeover of an established TCP session.
+•	An abnormal or unexpected jump in the TCP sequence number is a key indicator of session hijacking, 
+as it suggests unauthorized manipulation or takeover of an established TCP session.
 •	The network traffic demonstrates a successful ARP spoofing attack, enabling man-in-the-middle interception.
